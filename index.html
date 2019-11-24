@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Blog de turismo</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="row blue darken-1 navbar">
+            <div class="col s12 m1 flexbox">
+                <img class="logo" src="img/logo.png" alt="logo empresa">
+            </div>
+            <div class="col s12 m4 slogan">
+                <em>Vive experiencias inolvidables</em>
+            </div>
+            <div class="col m7 hide-on-small-only">
+                <ul class="right">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Estuve en...</a></li>
+                    <li><a href="#">Mejores viajes</a></li>
+                    <li><a href="#">Recomendaciones</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="collection hide-on-med-and-up">
+            <a href="#!" class="collection-item">Inicio</a>
+            <a href="#!" class="collection-item">Estuve en...</a>
+            <a href="#!" class="collection-item">Mejores viajes</a>
+            <a href="#!" class="collection-item">Recomendaciones</a>
+        </div>
+
+    </nav>
+
+    <div class="container">
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, []);
+        });
+    </script>
+</body>
+
+</html>
